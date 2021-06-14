@@ -1,0 +1,52 @@
+
+header {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.top {
+    text-align: right;
+}
+
+a, a:visited, a:hover, a:active {
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+ input[type="search"] {
+     margin: 20px;
+     border: 1px #dfe1e5 solid;
+     height: 46px;
+     width: 584px;
+     border-radius: 24px;
+     padding: 0px 10px;
+     outline: none;
+     
+ }
+
+
+
+.btn {
+     padding: 10px 12px;
+     background-color: #f8f9fa;
+     border: 1px solid #f8f9fa;
+     color: #3c4043;
+     margin: 11px 4px;
+     cursor:pointer;
+ }
